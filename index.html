@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HMS - Harmful Brain Activity Classification and Analysis</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#objectives">Objectives</a></li>
+            <li><a href="#dataset">Dataset</a></li>
+            <li><a href="#diseases">Diseases & Brain Effects</a></li>
+            <li><a href="#application">Application</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section with Background Image -->
+    <section id="home" class="section home-section">
+        <div class="overlay">
+            <h1>HMS - Harmful Brain Activity Classification and Analysis</h1>
+            <p>An advanced project for detecting and classifying harmful brain activities using EEG signals.</p>
+            <img src="bg.png" alt="Brain" class="brain-image">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2>About the Project</h2>
+        <p>EEG signals provide non-invasive insights into brain activity. Our project aims to detect seizures and other harmful patterns using advanced signal processing and machine learning techniques.</p>
+    </section>
+
+    <!-- Objectives Section -->
+    <section id="objectives" class="section">
+        <h2>Objectives</h2>
+        <ul>
+            <li>Observe and categorize the pattern of EEG data.</li>
+            <li>Detect significant anomalies in the data patterns.</li>
+            <li>Train a machine learning model on selected datasets.</li>
+            <li>Test the model using third-party datasets for robustness.</li>
+            <li>Develop a web and mobile application for easy use.</li>
+        </ul>
+    </section>
+
+    <!-- Dataset & Methodology Section -->
+    <section id="dataset" class="section">
+        <h2>Dataset & Methodology</h2>
+        <p>We use open-source EEG datasets and employ advanced pre-processing and feature extraction techniques such as wavelet transformation, filtering, etc.</p>
+        <img src="eeg_sample.png" alt="Sample EEG Signal" style="width: 100%; max-width: 600px;">
+    </section>
+
+    <!-- Diseases & Brain Effects Section -->
+    <section id="diseases" class="section">
+        <h2>Diseases & Their Effects on the Brain</h2>
+        <p>Many neurological diseases significantly alter brain activity. Below are some of the diseases that we aim to analyze using EEG signals:</p>
+        <ul>
+            <li><strong>Epilepsy:</strong> Characterized by recurrent seizures, epilepsy alters the brain's electrical patterns, which can be identified using EEG data.</li>
+            <li><strong>Parkinson's Disease:</strong> A degenerative disorder affecting movement, often associated with abnormal brain wave activity in certain regions.</li>
+            <li><strong>Alzheimer’s Disease:</strong> A progressive disorder affecting memory and cognitive function, leading to abnormal EEG patterns.</li>
+            <li><strong>Stroke:</strong> Damage to brain cells from a stroke can alter brain activity, which may show as irregularities in EEG data.</li>
+            <li><strong>Sleep Disorders:</strong> Conditions such as insomnia or sleep apnea can be studied through abnormal brain wave patterns during sleep cycles.</li>
+        </ul>
+    </section>
+
+    <!-- Application Section -->
+    <section id="application" class="section">
+        <h2>Application Demo</h2>
+        <p>Our web-based application provides real-time classification of brain activity using pre-trained models. You can download the mobile app or use the web interface.</p>
+        <button onclick="alert('Demo not available yet!')">View Demo</button>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 HMS Project</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
